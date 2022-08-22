@@ -1,0 +1,14 @@
+{
+    "name": "08-bankist",
+    "version": "1.0.0",
+    "description": "",
+    "main": "script.js",
+    "scripts": {
+        "zj:sass": "node-sass main.scss style.css -w"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "node-sass": "^7.0.1"
+    }
+}

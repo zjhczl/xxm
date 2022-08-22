@@ -1,0 +1,28 @@
+body {
+    height: 140vh;
+    /* background-color: rgb(132, 184, 231); */
+    background-image: linear-gradient(rgb(132, 184, 231), rgb(62, 151, 228));
+    background-repeat: no-repeat;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+.container {
+    padding: 10px 100px;
+    /* background-color: rgba(132, 185, 231, 0.52); */
+    display: grid;
+    /* grid-template-columns: repeat(3, 1fr); */
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 20px;
+}
+
+.part {
+    text-decoration: none;
+    background-color: rgb(240, 243, 246);
+    box-shadow: 1px 1px 8px black;
+    border-radius: 5px;
+    padding: 0 10px;
+}
